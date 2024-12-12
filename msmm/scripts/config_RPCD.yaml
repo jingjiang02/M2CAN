@@ -1,0 +1,12 @@
+# 73.8
+dataset:
+  types:
+    - AVA
+    - PCCD
+    - RPCD
+net:
+  num_classes: 2
+criterion:
+  cross_modal_contrastive_loss_rate: 0.5
+  cross_domain_contrastive_loss_rate: 0.2
+  mm_D_loss_rate: 0.05

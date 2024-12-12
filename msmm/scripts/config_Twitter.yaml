@@ -1,0 +1,26 @@
+# 85.73
+dataset:
+  types:
+    - TumEmo
+    - Yelp
+    - Twitter
+net:
+  num_classes: 3
+  start_rate: 0.3
+  update_rate: 0.3
+trainer:
+  lr_scheduler:
+    kwargs:
+      power: 0.9
+      lowest_lr: 0.00000001
+  optimizer:
+    backbone_lr: 0.000002
+    classifier_lr: 0.00005
+    extractor_lr: 0.000002
+    kwargs:
+      lr: 0.0001
+    mlb_lr: 0.00005
+    mmdiscriminator1_lr: 0.00002
+    mmdiscriminator2_lr: 0.00003
+criterion:
+  cross_modal_contrastive_loss_rate: 1
