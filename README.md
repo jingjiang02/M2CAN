@@ -72,7 +72,7 @@ bash test.sh $ckpt_dir [$gpu]
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you find M2CAN useful in your research, please consider citing:
 
 ```bibtex
 TODO
