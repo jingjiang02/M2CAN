@@ -75,5 +75,5 @@ bash test.sh $ckpt_dir [$gpu]
 If you find M2CAN useful in your research, please consider citing:
 
 ```bibtex
-TODO
+TODO.
 ```
