@@ -75,12 +75,13 @@ bash test.sh $ckpt_dir [$gpu]
 If you find M2CAN useful in your research, please consider citing:
 
 ```bibtex
-@article{zhao2024multi,
+@article{zhao2025multi,
   title={Multi-source multi-modal domain adaptation},
   author={Zhao, Sicheng and Jiang, Jing and Tang, Wenbo and Zhu, Jiankun and Chen, Hui and Xu, Pengfei and Schuller, Bj{\"o}rn W and Tao, Jianhua and Yao, Hongxun and Ding, Guiguang},
   journal={Information Fusion},
+  volume={117},
   pages={102862},
-  year={2024},
+  year={2025},
   publisher={Elsevier}
 }
 ```
